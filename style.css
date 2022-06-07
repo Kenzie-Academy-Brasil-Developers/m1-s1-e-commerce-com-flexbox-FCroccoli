@@ -1,3 +1,7 @@
+body {
+    background-color: #f5f5f5;
+}
+
 .menu {
     width: 100%;
     background: #ffffff;
@@ -43,15 +47,15 @@
 }
 
 .products-wrapper{
+    margin: 10px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: lightgray;
 }
 
 .container {
     max-width: 1200px;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .product{
@@ -64,6 +68,7 @@
     margin-bottom: 16px;
     box-sizing: border-box;
     border-radius: 4px;
+    justify-content: center;
 }
 
 .product__botao_carrinho {
@@ -81,9 +86,7 @@
 
 .product__image {
     align-self: center;
-}
-
-.product__image img {
     width: 100%;
-    height: 100%;
-}
+    height: 40%;
+} 
+
