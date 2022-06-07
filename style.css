@@ -1,0 +1,89 @@
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+}
+
+.menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.menu-column.menu-second-column {
+    justify-content: flex-end;
+}
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+}
+
+.menu-nav ul li a {
+    text-decoration: none;
+    color: #585e65;
+}
+
+.menu-link-button {
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.products-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: lightgray;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    height: 480px;
+    background-color: white;
+    width: 24%;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.product__botao_carrinho {
+    text-decoration: none;
+    height: 48px;
+    width: 90%;
+    background-color: #4c6ef5;
+    color: #fff;
+    display: flex;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    justify-self: center;
+}
+
+.product__image {
+    align-self: center;
+}
+
+.product__image img {
+    width: 100%;
+    height: 100%;
+}
